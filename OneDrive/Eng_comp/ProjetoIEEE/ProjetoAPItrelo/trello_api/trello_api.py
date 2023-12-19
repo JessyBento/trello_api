@@ -12,8 +12,8 @@ class TrelloAPI:
         Inicializa uma nova instância da classe TrelloAPI.
 
         Args:
-            api_key (str): '805620170833c176f9ee5e544b7942a2'
-            token (str): 'ATTAc0234c9c978a41f7200408c74fed60bbf8e7990678c013cf39bde5ffaa0f5014BA64FCCD'
+            api_key (str): ''
+            token (str): ''
         """
         self.api_key = api_key
         self.token = token
