@@ -1,5 +1,5 @@
 # main.py
-from config.py import API_KEY, TOKEN
+import config.py
 from report_generator.report_generator import generate_board_report
 
 if __name__ == "__main__":
