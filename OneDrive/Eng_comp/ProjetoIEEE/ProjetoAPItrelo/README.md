@@ -8,8 +8,4 @@ for lista in lists_in_board:
 for card_data in processed_data:
     print(f"Nome: {card_data['name']}, Criado em: {card_data['created_at']}")
 
-# funcao responsiva do titulo do html
-def add_title(ws, title):
-    title_cell = ws.cell(row=1, column=1, value=title)
-    title_cell.alignment = Alignment(horizontal='center')
-    title_cell.font = Font(bold=True, size=14)
+
